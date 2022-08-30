@@ -1,0 +1,76 @@
+.placedetails {
+	padding-bottom: 15px;
+	width: 100%;
+	margin: 25px 0;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 1px 5px 4px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 1px 5px 4px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 1px 5px 4px rgba(0, 0, 0, 0.75);
+}
+.imgContainer {
+	width: 100%;
+}
+.imgContainer img {
+	width: 100%;
+	object-fit: cover;
+	height: 300px;
+}
+.detailsContainer {
+	padding: 0 15px;
+}
+.place__title {
+	font-size: 25px;
+	margin: 10px 0;
+	font-weight: 500;
+}
+.price__level {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.place__ranking {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.place__award {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+.cuisine__wrapper {
+	margin: 15px 0;
+	display: flex;
+
+	flex-wrap: wrap;
+}
+.place__cuisine {
+	background-color: rgb(220, 214, 214);
+	padding: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	font-size: 14px;
+}
+.place__location {
+	display: flex;
+
+	justify-content: space-between;
+}
+.place__phone {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.place__btn {
+	padding: 10px;
+	margin-right: 20px;
+	cursor: pointer;
+	border: none;
+	background-color: rgb(44, 152, 44);
+	color: white;
+	font-size: 15px;
+}

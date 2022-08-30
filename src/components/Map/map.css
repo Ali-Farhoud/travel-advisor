@@ -1,0 +1,8 @@
+.map {
+	height: calc(100vh - 70px);
+	width: 100%;
+	flex: 8;
+}
+.map__icon {
+	color: rgb(207, 76, 76);
+}

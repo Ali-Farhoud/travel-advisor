@@ -1,0 +1,26 @@
+.list {
+	flex: 4;
+	height: calc(100vh - 60px);
+	overflow-y: auto;
+	padding: 0 10px;
+}
+.list__heading {
+	margin: 20px 0;
+}
+.label__type {
+	margin-right: 5px;
+	font-size: 18px;
+}
+.label__rating {
+	margin-right: 5px;
+	font-size: 18px;
+}
+.select__type {
+	margin-right: 30px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.select__rating {
+	padding: 5px;
+	border-radius: 5px;
+}
